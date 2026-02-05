@@ -6,3 +6,4 @@ python-dotenv==1.2.1
 openai==2.16.0
 reportlab==4.4.9
 httpx==0.28.1
+huggingface_hub==0.23.5
