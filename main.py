@@ -231,7 +231,11 @@ def custom_openapi():
 
 app.openapi = custom_openapi
 
+from fastapi.responses import RedirectResponse
 
+@app.get("/")
+def root():
+    return RedirectResponse(url="/ui")
 # ======================================================
 # MOUNT GRADIO (MUST BE LAST)
 # ======================================================
