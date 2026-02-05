@@ -235,4 +235,4 @@ app.openapi = custom_openapi
 # ======================================================
 # MOUNT GRADIO (MUST BE LAST)
 # ======================================================
-app = gr.mount_gradio_app(app, gradio_ui, path="/")
+app = gr.mount_gradio_app(app, gradio_ui, path="/ui")
